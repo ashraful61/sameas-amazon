@@ -21,7 +21,7 @@ const Cart = (props) => {
         return Number(precious);
     }
     return (
-        <div>
+        <div >
             <h4>Order summery</h4>
             <p>Items Ordered: {cart.length}</p>
             <p>Product Price: {formatNumber(total)}</p>
